@@ -150,3 +150,13 @@ def test27():
 def test28():
     score = play_bowling([1, 4, 4, 5, 6, 4, 5, 5, 10, 0, 1, 7, 3, 6, 4, 10, 2, 8, 6])
     assert score == 133
+
+
+def test29():
+    score = play_bowling([8, 0, 7, 0, 5, 3, 9, 1, 9, 1, 10, 8, 0, 5, 1, 3, 7, 9, 0])
+    assert score == 122
+
+
+def test30():
+    score = play_bowling([8, 2, 9, 0, 4, 4, 7, 2, 9, 0, 10, 10, 8, 0, 3, 5, 9, 1, 7])
+    assert score == 133
