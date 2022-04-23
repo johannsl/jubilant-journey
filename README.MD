@@ -9,11 +9,14 @@ Made with Python 3. Contains three solutions.
 ```
 # Setup virtual environemnt - run once
 python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+deactivate
 ```
 
 ```
+# Run tests
 source venv/bin/activate
-pip install -r requirements.txt
 pytest -v
 deactivate
 ```
